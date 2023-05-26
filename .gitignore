@@ -12,10 +12,11 @@ build/
 develop-eggs/
 dist/
 downloads/
+Lib/images
+Lib/__pycache__
+Lib/site-packages
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
