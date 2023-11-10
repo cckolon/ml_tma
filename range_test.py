@@ -1,7 +1,9 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
+
 from generate_training_data import generate_training_data
+
 keras = tf.keras
 
 sim_time = 300

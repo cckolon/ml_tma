@@ -1,6 +1,7 @@
-import numpy as np
-from submarine import Submarine
 import matplotlib.pyplot as plt
+import numpy as np
+
+from submarine import Submarine
 
 
 # input: sub1 speed, sub1 heading, bearing to sub2, bearing rate to sub2

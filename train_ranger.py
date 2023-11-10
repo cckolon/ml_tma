@@ -1,7 +1,9 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
+
 from generate_training_data import generate_training_data
+
 keras = tf.keras
 
 window_size = 150
@@ -75,5 +77,3 @@ else:
     plt.savefig('loss.png')
     model.save('ranger.h5')
 plt.show()
-
-

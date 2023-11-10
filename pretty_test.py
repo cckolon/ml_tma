@@ -1,8 +1,10 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
+
 from preprocess import preprocess_input_slice
 from submarine import Submarine
+
 keras = tf.keras
 
 sim_time = 300

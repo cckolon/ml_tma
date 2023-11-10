@@ -1,9 +1,12 @@
+from os.path import exists
+
+import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-import matplotlib.pyplot as plt
-from os.path import exists
+
+from preprocess import (save_windows, to_stateful_windows)
 from simulation import make_sim_data, save_sim_data
-from preprocess import to_windows, save_windows, to_training_windows, to_stateful_windows
+
 keras = tf.keras
 
 

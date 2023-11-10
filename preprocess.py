@@ -1,8 +1,11 @@
-import numpy as np
-from submarine import Submarine
-import tensorflow as tf
-import matplotlib.pyplot as plt
 from os.path import exists
+
+import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf
+
+from submarine import Submarine
+
 keras = tf.keras
 
 
